@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No dependencies"
+
+  build:
+    commands:
+      - echo "Building attendance app"
+
+artifacts:
+  files:
+    - '**/*'
